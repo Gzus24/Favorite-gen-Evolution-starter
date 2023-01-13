@@ -1,0 +1,61 @@
+/* Box Model Hack */
+*{
+    box-sizing: border-box;
+  }
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  body {
+    background:rgb(73, 72, 72);
+  }
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    color: rgb(245, 245, 31);
+    text-shadow: 4px 4px rgb(9, 9, 225);
+}
+/* h2 {
+    font-size: 3rem;
+    color: rgb(9, 9, 225);
+    text-align: center;
+    text-shadow: 4px 4px rgb(245, 245, 31);
+} */
+#kanto {
+    padding: 2rem 6rem 2rem 6rem;
+    font-size: 2rem;
+    color: rgb(245, 245, 31);
+    background: rgb(9, 9, 225);
+    display: block;
+   margin: 0 auto;
+   margin-bottom: 2rem;
+}
+#johto {
+    padding: 2rem 6rem 2rem 6rem;
+    font-size: 2rem;
+    color: rgb(245, 245, 31);
+    background: rgb(9, 9, 225);
+    display: block;
+   margin: 0 auto;
+   margin-bottom: 2rem;
+}
+#hoenn {
+    padding: 2rem 6rem 2rem 6rem;
+    font-size: 2rem;
+    color: rgb(245, 245, 31);
+    background: rgb(9, 9, 225);
+    display: block;
+   margin: 0 auto;
+}
+img{
+    width: 15%;
+}
+.starters {
+    display:flex;
+    justify-content: space-around;
+    padding-bottom: 3rem;
+    border: 2px solid rgb(27, 25, 25);
+}
+.hidden {
+    display: none;
+}
